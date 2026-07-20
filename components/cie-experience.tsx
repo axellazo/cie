@@ -64,32 +64,32 @@ const questions = [
 const originImages = [
   {
     id: "industrial-engineering",
-    bw: "/images/origin/graduation_bw.png",
-    hover: "/images/origin/graduation_hover.png",
+    bw: "/cie/images/origin/graduation_bw.png",
+    hover: "/cie/images/origin/graduation_hover.png",
     title: "Ingeniería Industrial",
     subtitle: "Pensamiento sistémico",
     alt: "Graduación en Ingeniería Industrial",
   },
   {
     id: "motorsport",
-    bw: "/images/origin/motorsport_bw.jpg",
-    hover: "/images/origin/motorsport_hover.jpg",
+    bw: "/cie/images/origin/motorsport_bw.jpg",
+    hover: "/cie/images/origin/motorsport_hover.jpg",
     title: "Deporte motor",
     subtitle: "Precisión bajo presión",
     alt: "Automóvil de deporte motor en competencia",
   },
   {
     id: "basketball",
-    bw: "/images/origin/basketball_bw.jpg",
-    hover: "/images/origin/basketball_hover.jpg",
+    bw: "/cie/images/origin/basketball_bw.jpg",
+    hover: "/cie/images/origin/basketball_hover.jpg",
     title: "Baloncesto",
     subtitle: "Competir para mejorar",
     alt: "Partido de baloncesto en competencia",
   },
   {
     id: "certifications",
-    bw: "/images/origin/microsoft_bw.png",
-    hover: "/images/origin/microsoft_hover.png",
+    bw: "/cie/images/origin/microsoft_bw.png",
+    hover: "/cie/images/origin/microsoft_hover.png",
     title: "Certificaciones",
     subtitle: "Aprendizaje continuo",
     alt: "Certificaciones profesionales de Microsoft",
@@ -255,7 +255,7 @@ export function CieExperience() {
           <Reveal className="contact-actions" delay={.1}>
             <a href="mailto:axel.lazo@pucp.edu.pe?subject=Conversemos%20sobre%20una%20oportunidad">axel.lazo@pucp.edu.pe <span>↗</span></a>
             <a href="https://www.linkedin.com/in/axel-lazo/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
-            <a href="/cv.pdf" target="_blank" rel="noreferrer">CV <span>↓</span></a>
+            <a href="/cie/cv.pdf" target="_blank" rel="noreferrer">CV <span>↓</span></a>
           </Reveal>
           <footer><div><strong>© 2026 Axel Lazo</strong></div><p>Confidence is engineered.</p></footer>
         </div>
